@@ -24,4 +24,18 @@ To load the data, use the following command:
 ```
 Exon_data <- readRDS("Exon_data_57_cells.rds")
 ```
-The rownames of the data contains the "transcript cluster id" of each gene in the exon array data. For the annotation of these genes and id, please check the [annotation data](http://www.affymetrix.com/Auth/analysis/downloads/na33/wtexon/HuEx-1_0-st-v2.na33.1.hg19.probeset.csv.zip).
+The rownames of the data contains the "transcript cluster id" of each gene in the exon array data. For the annotation of these genes and ids, please check the [annotation data](http://www.affymetrix.com/Auth/analysis/downloads/na33/wtexon/HuEx-1_0-st-v2.na33.1.hg19.probeset.csv.zip). Each column is a cell type and each row is a gene. The value represents the quantile normalized and log transformed gene expression.
+
+### The prediction problem
+Let the chromatin accessibility data be Y and the gene expression data be X. The problem can be formulated as how to predict Y using X.
+
+### Other files in the dataset
+There are three other txt files in the dataset ("DH_cluster_1000.txt", "DH_cluster_2000.txt", and "DH_cluster_5000.txt"). These files contains the membership of the clustering result for the genomic loci (rows) using 1000, 2000, or 5000 clusters for the chromatin accessibility data (Y). 
+
+### Citations
+The raw data for this dataset is obtained from ENCODE and processed as described in BIRD. Please cite the [ENCODE paper](https://www.nature.com/articles/nature11247) and the [BIRD paper](https://www.nature.com/articles/s41467-017-01188-x) if you used this dataset.
+
+
+
+
+
