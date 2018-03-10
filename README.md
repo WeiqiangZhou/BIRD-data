@@ -10,6 +10,7 @@ Zhou W, Sherwood B, Ji H. Computational Prediction of the Global Functional Geno
 
 ### Download the data
 The data can be downloaded via the following link:
+
 https://github.com/WeiqiangZhou/BIRD-data/releases/download/v1.0/BIRD_data.zip
 
 ### Chromatin accessibility data
