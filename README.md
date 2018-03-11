@@ -31,7 +31,7 @@ The rownames of the data contains the "transcript cluster id" of each gene in th
 Let the chromatin accessibility data be Y and the gene expression data be X. The problem can be formulated as how to predict Y using X.
 
 ### Other files in the dataset
-There are three other txt files in the dataset ("DH_cluster_1000.txt", "DH_cluster_2000.txt", and "DH_cluster_5000.txt"). These files contain the membership of the clustering result for the genomic loci (rows) using 1000, 2000, or 5000 clusters for the chromatin accessibility data (Y). 
+There are three other txt files in the dataset ("DH_cluster_1000.txt", "DH_cluster_2000.txt", and "DH_cluster_5000.txt"). These files contain the membership of the clustering result for the genomic loci (rows) using 1000, 2000, or 5000 clusters based on the chromatin accessibility data (Y). 
 
 ### Citations
 The raw data for this dataset is obtained from ENCODE and processed as described in BIRD. Please cite the [ENCODE paper](https://www.nature.com/articles/nature11247) and the [BIRD paper](https://www.nature.com/articles/s41467-017-01188-x) if you used this dataset.
