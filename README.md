@@ -2,7 +2,7 @@
 
 This is the preprocessed training dataset used for [BIRD(Big data Regression for predicting DNase I hypersensitivity)](https://github.com/WeiqiangZhou/BIRD). It contains two types of genomic data: chromatin accessibility (DNase-seq) and gene expression (Exon array).
 
-This dataset can also be useful for testing other machine learning algorithms in the context of genomics. For more details about the introduction of prediction problems in genomics, please check the following papers:
+This dataset can also be useful for testing other machine learning algorithms in the context of genomics. For more details about the prediction problems in genomics, please check the following papers:
 
 Zhou W, Sherwood B, Ji Z, Xue Y, Du F, Bai J, Ying M, Ji H. Genome-wide Prediction of DNase I Hypersensitivity Using Gene Expression. _Nature Communications_ 8, 1038 (2017). ([open access](https://www.nature.com/articles/s41467-017-01188-x))
 
