@@ -1,6 +1,6 @@
 ## BIRD-data: a dataset for big data prediction
 
-This is the preprocessed training datasets used for [BIRD(Big data Regression for predicting DNase I hypersensitivity)](https://github.com/WeiqiangZhou/BIRD). It contains two types of genomic data: chromatin accessibility (DNase-seq) and gene expression (Exon array or RNA-seq). 
+This repository contains the preprocessed training datasets used for [BIRD(Big data Regression for predicting DNase I hypersensitivity)](https://github.com/WeiqiangZhou/BIRD). It contains two types of genomic data: chromatin accessibility (DNase-seq) and gene expression (Exon array or RNA-seq). 
 
 There are three training datasets:
 1. DNase-seq and Exon array data from the previous ENCODE project for 57 samples.
