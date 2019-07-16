@@ -4,7 +4,7 @@ This repository contains the preprocessed training datasets used for [BIRD(Big d
 
 There are three training datasets:
 1. DNase-seq and Exon array data from the previous ENCODE project for 57 samples.
-2. DNase-seq and RNA-seq data from the Epigenome Roapmap project for 70 samples.
+2. DNase-seq and RNA-seq data from the Epigenome Roadmap project for 70 samples.
 3. DNase-seq and RNA-seq data from the current ENCODE project for 167 samples.
 
 These datasets can also be useful for testing other machine learning algorithms in the context of genomics. For more details about the prediction problems in genomics, please check the following papers:
@@ -14,12 +14,12 @@ Zhou W, Sherwood B, Ji Z, Xue Y, Du F, Bai J, Ying M, Ji H. Genome-wide Predicti
 Zhou W, Sherwood B, Ji H. Computational Prediction of the Global Functional Genomic Landscape: Applications, Methods, and Challenges. _Human Heredity_ **81**, 88-105 (2016). ([author manuscript](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5599299/pdf/nihms904916.pdf))
 
 ### Download the data
-The data can be downloaded via the following link:
+The data can be downloaded via the following links:
 
 DNase-seq and Exon array data from the previous ENCODE project for 57 samples:
 https://github.com/WeiqiangZhou/BIRD-data/releases/download/v1.0/BIRD_data.zip
 
-DNase-seq and RNA-seq data from the Epigenome Roapmap project for 70 samples:
+DNase-seq and RNA-seq data from the Epigenome Roadmap project for 70 samples:
 https://github.com/WeiqiangZhou/BIRD-data/releases/download/v2.0/BIRD_data_Roadmap.zip
 
 DNase-seq and RNA-seq data from the current ENCODE project for 167 samples:
